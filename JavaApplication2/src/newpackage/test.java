@@ -5,7 +5,6 @@
 package newpackage;
 
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -63,13 +62,13 @@ public class test {
         }
     }
     public static void main(String[] args) {
-//        Customer c= new Customer();
-//        Calendar d= Calendar.getInstance();
-//        d.set(1990, 12, 8);
-//        c.setName("nguyen van an");
-//        c.setAge(15);
-//        c.setDateOfbirth(d);
-//        insertCustomer(c);
+        Customer c= new Customer();
+        Calendar d= Calendar.getInstance();
+        d.set(1990, 12, 8);
+        c.setName("nguyen van an");
+        c.setAge(15);
+        c.setDateOfbirth(d);
+        insertCustomer(c);
         long id=1;
         
                 
