@@ -69,6 +69,7 @@ public class test {
         c.setAge(15);
         c.setDateOfbirth(d);
         insertCustomer(c);
+        String name = "abc";
         long id=1;
         
                 
