@@ -75,4 +75,8 @@ public class test {
         long a = 100;        
     }
     
+    void abc(){
+        System.out.println("hello");
+    }
+    
 }
