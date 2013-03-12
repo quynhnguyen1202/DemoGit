@@ -72,7 +72,7 @@ public class test {
         String name = "abc";
         long id=1;
         
-                
+        long a = 100;        
     }
     
 }
